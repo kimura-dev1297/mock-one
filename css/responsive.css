@@ -1,0 +1,252 @@
+/* Default Layout	*/
+
+
+/*	Extra small devices (portrait phones, less than 576px)	*/
+@media (max-width: 575.98px) {
+	
+	.container{
+		width:420px !important;
+	}
+	.navbar .container{
+		width:96% !important;
+	}
+	
+	.navbar .nav-item{
+		width:150px;
+		margin:0px auto;
+		border-bottom:1px solid #EAB34C;
+	}
+	.navbar .nav-item:last-child{
+		border-bottom:none;
+	}
+	.navbar-dark .navbar-toggler{
+		border-color:#EAB34C !important;
+	}
+	
+	.header .contents h1{
+		font-size:50px;
+	}
+	.about_us .about_photo{
+		max-width:90%;
+		margin:0px auto;
+		margin-bottom:80px;
+	}
+	.about_us .contents .top_content h3{
+		font-size:40px;
+	}
+	.service{
+		padding:40px 0px;
+	}
+	.service .contents{
+		padding:20px 0px;
+		padding-left:20px;
+	}
+	.service .categories .category{
+		max-width:280px;
+		margin:15px auto;
+	}
+	.testimonials .top_content{
+		padding-left:15px;
+	}
+	.testimonials{
+		padding-top:0px;
+	}
+	.gallery_section .grid{
+		max-width:380px;
+		margin:0px auto;
+	}
+	.button-group{
+		margin-left:5%;
+		margin-right:5%;
+		text-align:center;
+	}
+	.button-group .button{
+		margin:5px 5px;
+	}
+	.single_photo .overlay ul {
+		margin-bottom: 0px;
+		position: absolute;
+		top: 44%;
+		left: 22%;
+	}
+	.contact_us .contacts .contact .icon i{
+		width:50px;
+		height:50px;
+		line-height:50px;
+		font-size:24px;
+	}
+	.contact_us .contacts .contact .content h3{
+		font-size:20px;
+	}
+	.contact_us{
+		padding:30px 0px;
+	}
+	.footer .social_icon ul li{
+		margin:0px 2px;
+	}
+	.footer .copyright p{
+		font-size:12px;
+	}
+	
+}
+
+/*	Extra small devices (portrait phones, less than 576px)	*/
+@media (max-width: 420px) {
+	
+	.container{
+		width:310px !important;
+	}
+	.navbar .container{
+		width:96% !important;
+	}
+	.header .clickable_button ul li a{
+		font-size:7px 30px;
+	}
+	.header .contents h1{
+		font-size:36px;
+		margin:10px 0px;
+	}
+	.header .contents h3{
+		font-size:32px;
+	}
+	.header .contents h4{
+		font-size:30px;
+	}
+	.contact_us .contacts .contact .content{
+		padding-left:35px;
+	}
+	.contact_us .contacts .contact .content h3{
+		font-size:14px;
+	}
+	.contact_us .contacts .contact .content h4{
+		font-size:14px;
+	}
+	.single_photo .overlay ul {
+		margin-bottom: 0px;
+		position: absolute;
+		top: 44%;
+		left: 13%;
+	}
+	
+}
+
+/*	Small devices (landscape phones, 576px and up)	*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+	.navbar .nav-item{
+		width:150px;
+		margin:0px auto;
+		border-bottom:1px solid #EAB34C;
+	}
+	.navbar .nav-item:last-child{
+		border-bottom:none;
+	}
+	.navbar-dark .navbar-toggler{
+		border-color:#EAB34C !important;
+	}
+	
+	.about_us .about_photo{
+		max-width:90%;
+		margin:0px auto;
+		margin-bottom:80px;
+	}
+	.service{
+		padding:40px 0px;
+	}
+	.service .contents{
+		padding:20px 0px;
+	}
+	.service .categories .category{
+		max-width:250px;
+	}
+	.testimonials{
+		padding-top:0px;
+	}
+	.button-group{
+		margin-left:5%;
+		margin-right:5%;
+	}
+	.single_photo .overlay ul {
+		margin-bottom: 0px;
+		position: absolute;
+		top: 41%;
+		left: 10%;
+	}
+	.single_photo .overlay ul li a{
+		padding:6px 0px;
+		width:90px;
+	}
+	
+}
+
+
+/*	Medium devices (tablets, 768px and up)	*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+	.about_us .about_photo{
+		max-width:90%;
+		margin:0px auto;
+		margin-bottom:80px;
+	}
+	.service{
+		padding:40px 0px;
+	}
+	.service .contents{
+		padding:20px 0px;
+	}
+	.service .categories .category{
+		max-width:340px;
+	}
+	.testimonials{
+		padding-top:0px;
+	}
+	.button-group{
+		margin-left:15%;
+		margin-right:15%;
+	}
+	.single_photo .overlay ul {
+		margin-bottom: 0px;
+		position: absolute;
+		top: 39%;
+		left: 10%;
+	}
+	.single_photo .overlay ul li a{
+		width:80px;
+		padding:5px 0px;
+	}
+		
+	
+}
+
+/*	Large devices (desktops, 992px and up)	*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+	.about_us .about_photo{
+		margin-top:60px;
+	}
+	.about_us .contents .top_content h3{
+		font-size:40px;
+		margin:15px 0px;
+	}
+	.service .categories .category{
+		max-width:260px;
+	}
+	.button-group{
+		margin-left:23%;
+		margin-right:23%;
+	}
+	.single_photo .overlay ul {
+		margin-bottom: 0px;
+		position: absolute;
+		top: 41%;
+		left: 14%;
+	}
+	
+}
+
+/*	Extra large devices (large desktops, 1200px and up)	*/
+@media (min-width: 1200px) {
+	
+	
+	
+}
