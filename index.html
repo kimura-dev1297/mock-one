@@ -18,8 +18,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
 
 	<!-- CSS For Slick Slider Using Testimonial Area -->
-	<link rel="stylesheet" type="text/css" href="slick/slick.css" />
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" /> -->
 
 	<!-- Goggle Fonts -->
 	<link rel="stylesheet" href="fonts/fonts.css" />
@@ -32,9 +32,9 @@
 
 </head>
 
-<body data-spy="scroll" data-target="#demo" data-offset="55">
+<body data-spy="scroll" data-target="nav" data-offset="55">
 
-	<nav class="navbar navbar-expand-md bg-white fixed-top navbar-dark" id="demo">
+	<nav class="navbar navbar-expand-md bg-white fixed-top navbar-dark" id="nav">
 		<div class="container">
 			<!-- <a href="index.html" class="navbar-brand"><img src="images/logo.png" class="img-fluid logo" alt="" /></a> -->
 			<a href="#" class="navbar-brand">KIMURA/DEV</a>
@@ -45,7 +45,7 @@
 					<li class="nav-item"><a href="#headerid" class="nav-link">Home</a></li>
 					<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
 					<li class="nav-item"><a href="#servicesid" class="nav-link">Service</a></li>
-					<li class="nav-item"><a href="#clients" class="nav-link">Clients</a></li>
+					<!-- <li class="nav-item"><a href="#clients" class="nav-link">Clients</a></li> -->
 					<li class="nav-item"><a href="#gallery" class="nav-link">Portfolio</a></li>
 					<li class="nav-item"><a href="#contactid" class="nav-link">Contact</a></li>
 				</ul>
@@ -218,7 +218,7 @@
 		</div>
 	</section>
 
-	<section class="testimonials" id="clients">
+	<!-- <section class="testimonials" id="clients">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 top_content">
@@ -270,7 +270,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<section class="gallery_section" id="gallery">
 		<div class="container">
 			<div class="heading">
@@ -328,7 +328,7 @@
 					<img src="images/react-app1.jpg" alt="" />
 					<div class="overlay">
 						<ul>
-							<li><a href="#">In Prod</a></li>
+							<li><a href="#">Coming Soon</a></li>
 							<li><a href="#">N/A</a></li>
 						</ul>
 					</div>
@@ -425,7 +425,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
 	<!-- JS For Slick Slider Use On The Testimonial Section -->
-	<script type="text/javascript" src="slick/slick.js"></script>
+	<!-- <script type="text/javascript" src="slick/slick.js"></script> -->
 
 	<!-- Type.js Use For Create The Type Animation On The Header Section -->
 	<script type="text/javascript" src="js/typed.min.js"></script>
@@ -444,36 +444,36 @@
 			});
 
 			// Slick Slider
-			$('.testimonial-slider').slick({
-				autoplay: true,
-				speed: 400,
-				dots: true,
-				slidesToShow: 2,
-				slidesToScroll: 1,
-				responsive: [{
-						breakpoint: 991,
-						settings: {
-							slidesToShow: 2,
-							slidesToScroll: 1,
-							infinite: true,
-						}
-					},
-					{
-						breakpoint: 767,
-						settings: {
-							slidesToShow: 1,
-							slidesToScroll: 1
-						}
-					},
-					{
-						breakpoint: 575,
-						settings: {
-							slidesToShow: 1,
-							slidesToScroll: 1
-						}
-					}
-				]
-			});
+			// $('.testimonial-slider').slick({
+			// 	autoplay: true,
+			// 	speed: 400,
+			// 	dots: true,
+			// 	slidesToShow: 2,
+			// 	slidesToScroll: 1,
+			// 	responsive: [{
+			// 			breakpoint: 991,
+			// 			settings: {
+			// 				slidesToShow: 2,
+			// 				slidesToScroll: 1,
+			// 				infinite: true,
+			// 			}
+			// 		},
+			// 		{
+			// 			breakpoint: 767,
+			// 			settings: {
+			// 				slidesToShow: 1,
+			// 				slidesToScroll: 1
+			// 			}
+			// 		},
+			// 		{
+			// 			breakpoint: 575,
+			// 			settings: {
+			// 				slidesToShow: 1,
+			// 				slidesToScroll: 1
+			// 			}
+			// 		}
+			// 	]
+			// });
 
 
 			//For Smothly Scroll On The Page Start		
