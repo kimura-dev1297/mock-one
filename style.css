@@ -1,3 +1,5 @@
+/*   Simple Typography   */
+
 * {
 	margin: 0;
 	padding: 0
@@ -8,8 +10,9 @@ body {
 	position: relative;
 }
 
-/*   End Of Simple Typography   */
-
+/* ---------------------------------------- */
+/*             Navbar
+/* ---------------------------------------- */
 .navbar {
 	background: rgba(0, 0, 0, 0.8) !important;
 }
@@ -34,9 +37,9 @@ body {
 	color: #EAB34C !important;
 }
 
-/*	---------------------------	*/
-
-
+/* ---------------------------------------- */
+/*            Header Section
+/* ---------------------------------------- */
 .typed-cursor {
 	opacity: 1;
 	-webkit-animation: blink 0.7s infinite;
@@ -227,9 +230,9 @@ body {
 	color: #008000;
 }
 
-
-/*	----------------About------------------	*/
-
+/* ---------------------------------------- */
+/*             About Section
+/* ---------------------------------------- */
 .about_me {
 	background: #031219;
 	padding: 80px 0px;
@@ -351,7 +354,9 @@ body {
 	border-radius: 3px 0px 0px 3px;
 }
 
-/*	---------------------------------	*/
+/* ---------------------------------------- */
+/*            Services Section
+/* ---------------------------------------- */
 
 .service {
 	background: #F1F1F1;;
@@ -444,19 +449,20 @@ body {
 	word-spacing: 3px;
 }
 
-/*	---------------------------------------	*/
-
-.gallery_section {
+/* ---------------------------------------- */
+/*           Portfolio Section
+/* ---------------------------------------- */
+.portfolio_section {
 	background: #FFFFFF;
 	padding: 60px 0px;
 }
 
 
-.gallery_section .heading {
+.portfolio_section .heading {
 	text-align: center;
 }
 
-.gallery_section h3 {
+.portfolio_section h3 {
 	color: #454545;
 	font-family: 'Dosis', sans-serif;
 	font-weight: 600;
@@ -468,7 +474,7 @@ body {
 	padding-bottom: 15px;
 }
 
-.gallery_section h3:after {
+.portfolio_section h3:after {
 	content: "";
 	position: absolute;
 	background: #EAB34C;
@@ -482,11 +488,17 @@ body {
 .project_tools {
 	display: flex;
 	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: center;
 	margin: 8px;
 }
 
 .project_tools i {
 	padding: 3px;
+}
+
+.project_title {
+	text-align: center;
 }
 
 .js_tool {
@@ -516,8 +528,10 @@ body {
 .single_project .overlay ul {
 	margin-bottom: 0px;
 	position: absolute;
-	top: 41%;
-	left: 19%;
+	top: 30%;
+	left: 30%;
+	/* top: 41%;
+	left: 19%; */
 }
 
 .single_project .overlay ul li {
@@ -550,10 +564,11 @@ body {
 
 .single_project:hover .overlay {
 	cursor: pointer;
-	top: 0%;
+	/* top: 0%; */
+	top: 23%;
 }
 
-.gallery_section .single_project {
+.portfolio_section .single_project {
 	padding-left: 0px;
 	padding-right: 0px;
 	border-left: 10px solid #FFFFFF;
@@ -561,14 +576,16 @@ body {
 	margin: 10px 0px;
 }
 
-/*	-------------------------------*/
+/* ---------------------------------------- */
+/*           Contact Me Section
+/* ---------------------------------------- */
 
-.contact_us {
+.contact_me {
 	background: #031219;
 	padding: 60px 0px;
 }
 
-.contact_us h2 {
+.contact_me h2 {
 	color: #FFFFFF;
 	font-family: 'Dosis', sans-serif;
 	font-weight: 600;
@@ -580,7 +597,7 @@ body {
 	padding-bottom: 15px;
 }
 
-.contact_us h2:after {
+.contact_me h2:after {
 	content: "";
 	position: absolute;
 	background: #EAB34C;
@@ -590,16 +607,16 @@ body {
 	left: 20%;
 }
 
-.contact_us .form {}
+.contact_me .form {}
 
-.contact_us .form .input_types {
+.contact_me .form .input_types {
 	background: transparent;
 	border: none;
 	border-bottom: 1px solid #EAB34C;
 	border-radius: 0px;
 }
 
-.contact_us .form .message {
+.contact_me .form .message {
 	background: transparent;
 	border: none;
 	border-bottom: 1px solid #EAB34C;
@@ -616,14 +633,14 @@ body {
 	word-spacing: 3px;
 }
 
-.contact_us .form .message {}
+.contact_me .form .message {}
 
-.contact_us .form .submit_button {
+.contact_me .form .submit_button {
 	margin-top: 20px;
 	text-align: center;
 }
 
-.contact_us .form .submit_button button {
+.contact_me .form .submit_button button {
 	color: #EAB34C;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
@@ -638,28 +655,28 @@ body {
 	transition: all 0.2s ease;
 }
 
-.contact_us .form .submit_button button:hover {
+.contact_me .form .submit_button button:hover {
 	color: #FFFFFF;
 	background: #EAB34C;
 	border: 1px solid #FFFFFF;
 }
 
 
-.contact_us .contacts {
+.contact_me .contacts {
 	padding-left: 30px;
 	max-width: 960px;
 	margin: 0px auto;
 }
 
-.contact_us .contacts .contact {
+.contact_me .contacts .contact {
 	margin: 20px 0px;
 }
 
-.contact_us .contacts .contact .icon {
+.contact_me .contacts .contact .icon {
 	text-align: center;
 }
 
-.contact_us .contacts .contact .icon i {
+.contact_me .contacts .contact .icon i {
 	color: #FFFFFF;
 	font-size: 32px;
 	width: 66px;
@@ -669,16 +686,16 @@ body {
 	border: 1px dashed #EAB34C;
 }
 
-.contact_us .contacts .contact .content {}
+.contact_me .contacts .contact .content {}
 
-.contact_us .contacts .contact .content h4 {
+.contact_me .contacts .contact .content h4 {
 	color: #FFFFFF;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	font-size: 18px;
 }
 
-.contact_us .contacts .contact .content h3 {
+.contact_me .contacts .contact .content h3 {
 	color: #FFFFFF;
 	font-family: 'Dosis', sans-serif;
 	font-weight: 500;
@@ -687,6 +704,9 @@ body {
 }
 
 /*	--------------------------------------	*/
+/*           Footer Section
+/*	--------------------------------------	*/
+
 
 .footer {
 	background: #041015;
