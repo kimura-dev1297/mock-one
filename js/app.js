@@ -1,10 +1,10 @@
 $(document).ready(function () {
   // Typing Animation
   var typed = new Typed('.typing', {
-    strings: ["Full Stack Developer.", "Web Designer.", "Freelancer Programmer."],
-    backSpeed: 80,
+    strings: ["Full Stack Developer.", "Web Designer.", "Freelance Programmer."],
+    backSpeed: 30,
     typeSpeed: 80,
-    backDelay: 3000,
+    backDelay: 2000,
     loop: true,
   });
 

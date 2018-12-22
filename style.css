@@ -203,7 +203,7 @@ body {
 
 .header .social_icon ul li i {
 	color: #FFFFFF;
-	font-size: 24px;
+	font-size: 35px;
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
 	transition: all 0.2s ease;
@@ -326,34 +326,89 @@ body {
 	margin-top: 7px;
 }
 
-.about_me .skills_section .skills_bar .single_skill .skill_full .st_skills {
-	background: #EAB34C;
-	width: 80%;
-	height: 7px;
-	border-radius: 3px 0px 0px 3px;
-}
-
 .about_me .skills_section .skills_bar .single_skill .skill_full .html_skills {
 	background: #EAB34C;
-	width: 75%;
+	width: 77%;
 	height: 7px;
 	border-radius: 3px 0px 0px 3px;
 }
 
-.about_me .skills_section .skills_bar .single_skill .skill_full .css_skills {
+.about_me .skills_section .skills_bar .single_skill .skill_full .js_skills {
 	background: #EAB34C;
-	width: 72%;
+	width: 70%;
 	height: 7px;
 	border-radius: 3px 0px 0px 3px;
 }
 
-.about_me .skills_section .skills_bar .single_skill .skill_full .wp_skills {
+.about_me .skills_section .skills_bar .single_skill .skill_full .jquery_skills {
 	background: #EAB34C;
 	width: 65%;
 	height: 7px;
 	border-radius: 3px 0px 0px 3px;
 }
 
+.about_me .skills_section .skills_bar .single_skill .skill_full .node_skills {
+	background: #EAB34C;
+	width: 60%;
+	height: 7px;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.about_me .skills_section .skills_bar .single_skill .skill_full .express_skills {
+	background: #EAB34C;
+	width: 60%;
+	height: 7px;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.about_me .skills_section .skills_bar .single_skill .skill_full .mongoose_skills {
+	background: #EAB34C;
+	width: 60%;
+	height: 7px;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.about_me .skills_section .skills_bar .single_skill .skill_full .mongodb_skills {
+	background: #EAB34C;
+	width: 60%;
+	height: 7px;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.about_me .skills_section .skills_bar .single_skill .skill_full .react_skills {
+	background: #EAB34C;
+	width: 57%;
+	height: 7px;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.about_me .skills_section .skills_bar .single_skill .skill_full .redux_skills {
+	background: #EAB34C;
+	width: 54%;
+	height: 7px;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.about_me .skills_section .skills_bar .single_skill .skill_full .wp_skills {
+	background: #EAB34C;
+	width: 33%;
+	height: 7px;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.about_me .skills_section .skills_bar .single_skill .skill_full .git_skills {
+	background: #EAB34C;
+	width: 40%;
+	height: 7px;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.about_me .skills_section .skills_bar .single_skill .skill_full .tdd_skills {
+	background: #EAB34C;
+	width: 35%;
+	height: 7px;
+	border-radius: 3px 0px 0px 3px;
+}
 /* ---------------------------------------- */
 /*            Services Section
 /* ---------------------------------------- */
