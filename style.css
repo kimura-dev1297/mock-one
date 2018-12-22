@@ -553,7 +553,12 @@ body {
 }
 
 .project_title {
+	margin-top: 12px;
 	text-align: center;
+}
+
+.project_description {
+	padding: 12px
 }
 
 .js_tool {
@@ -563,6 +568,7 @@ body {
 .single_project {
 	position: relative;
 	overflow: hidden;
+	background-color: rgb(250, 218, 159);
 }
 
 .single_project img {
@@ -619,8 +625,8 @@ body {
 
 .single_project:hover .overlay {
 	cursor: pointer;
-	/* top: 0%; */
-	top: 23%;
+	top: 0%;
+	/* top: 23%; */
 }
 
 .portfolio_section .single_project {
@@ -628,7 +634,7 @@ body {
 	padding-right: 0px;
 	border-left: 10px solid #FFFFFF;
 	border-right: 10px solid #FFFFFF;
-	margin: 10px 0px;
+	margin: 15px 0px;
 }
 
 /* ---------------------------------------- */
