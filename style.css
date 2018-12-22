@@ -96,6 +96,10 @@ body {
 	background-size: cover;
 }
 
+.header .typing {
+	color: #EAB34C;
+}
+
 .header .overlay {
 	background: rgba(0, 0, 0, 0.4);
 	padding-top: 170px;
