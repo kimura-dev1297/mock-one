@@ -402,14 +402,14 @@ body {
 
 .about_me .skills_section .skills_bar .single_skill .skill_full .git_skills {
 	background: #EAB34C;
-	width: 40%;
+	width: 58%;
 	height: 7px;
 	border-radius: 3px 0px 0px 3px;
 }
 
 .about_me .skills_section .skills_bar .single_skill .skill_full .tdd_skills {
 	background: #EAB34C;
-	width: 35%;
+	width: 48%;
 	height: 7px;
 	border-radius: 3px 0px 0px 3px;
 }
