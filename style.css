@@ -381,28 +381,28 @@ body {
 
 .about_me .skills_section .skills_bar .single_skill .skill_full .react_skills {
 	background: #EAB34C;
-	width: 57%;
+	width: 60%;
 	height: 7px;
 	border-radius: 3px 0px 0px 3px;
 }
 
 .about_me .skills_section .skills_bar .single_skill .skill_full .redux_skills {
 	background: #EAB34C;
-	width: 54%;
+	width: 60%;
 	height: 7px;
 	border-radius: 3px 0px 0px 3px;
 }
 
 .about_me .skills_section .skills_bar .single_skill .skill_full .wp_skills {
 	background: #EAB34C;
-	width: 33%;
+	width: 50%;
 	height: 7px;
 	border-radius: 3px 0px 0px 3px;
 }
 
 .about_me .skills_section .skills_bar .single_skill .skill_full .git_skills {
 	background: #EAB34C;
-	width: 58%;
+	width: 65%;
 	height: 7px;
 	border-radius: 3px 0px 0px 3px;
 }
@@ -410,6 +410,13 @@ body {
 .about_me .skills_section .skills_bar .single_skill .skill_full .tdd_skills {
 	background: #EAB34C;
 	width: 48%;
+	height: 7px;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.about_me .skills_section .skills_bar .single_skill .skill_full .dgmrkt_skills {
+	background: #EAB34C;
+	width: 32%;
 	height: 7px;
 	border-radius: 3px 0px 0px 3px;
 }
