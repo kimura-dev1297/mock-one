@@ -37,6 +37,10 @@ body {
 	color: #EAB34C !important;
 }
 
+.navbar-brand img {
+	width: 60px;
+}
+
 /* ---------------------------------------- */
 /*            Header Section
 /* ---------------------------------------- */
