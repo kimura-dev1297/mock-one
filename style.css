@@ -95,9 +95,10 @@ body {
 
 
 .header {
-	background: url(images/gallery-8.jpg) no-repeat;
+	background: url(images/lacityscape.jpg) no-repeat;
 	background-position: center center;
 	background-size: cover;
+	/* transform: rotate(100deg); */
 }
 
 .header .typing {
@@ -249,6 +250,7 @@ body {
 .about_me .about_photo {
 	position: relative;
 }
+
 
 .about_me .about_photo img {}
 

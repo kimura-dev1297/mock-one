@@ -1,7 +1,7 @@
 $(document).ready(function () {
   // Typing Animation
   var typed = new Typed('.typing', {
-    strings: ["Full Stack Developer.", "Wordpress Integrator.", "Freelancer."],
+    strings: ["Full Stack Developer.", "Wordpress Developer.", "Freelancer Developer."],
     backSpeed: 30,
     typeSpeed: 80,
     backDelay: 2000,
