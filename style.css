@@ -318,7 +318,9 @@ body {
 
 .about_me .contents .skills_section .skills_bar {}
 
-.about_me .skills_section .skills_bar .single_skill {}
+.about_me .skills_section .skills_bar .single_skill {
+	margin-bottom: 10px;
+}
 
 .about_me .skills_section .skills_bar .single_skill h5 {
 	color: #F2F2F3;
@@ -334,6 +336,10 @@ body {
 	height: 7px;
 	border-radius: 3px;
 	margin-top: 7px;
+}
+
+.skill_full{
+	margin-bottom: 12px;
 }
 
 .about_me .skills_section .skills_bar .single_skill .skill_full .html_skills {
