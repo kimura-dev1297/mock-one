@@ -223,10 +223,6 @@ body {
 	transition: all 0.2s ease;
 }
 
-/* .header .social_icon ul li i:hover {
-	color: #EAB34C;
-} */
-
 .header .social_icon ul li:nth-child(1) i:hover {
 	color: #3b5999;
 }
@@ -639,6 +635,15 @@ body {
 	border-left:10px solid #FFFFFF;
 	border-right:10px solid #FFFFFF;
 	margin:10px 0px;
+} 
+
+.project_tools {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 1em;
+	border: 1px solid black;
+	padding: 0.5em;
+	box-shadow: 5px 10px 8px #8888;
 }
 
 /*	Extra small devices (portrait phones, less than 576px)	*/
@@ -682,6 +687,8 @@ body {
 		position: absolute;
 		top: 41%;
 		left: 10%;
+		display: flex;
+    justify-content: space-evenly;
 	}
 	.single_photo .clickable_button ul li a{
 		padding:6px 0px;
@@ -737,137 +744,6 @@ body {
 	
 }
 
-
-
-
-
-
-/* .portfolio_section {
-	background: #FFFFFF;
-	padding: 60px 0px;
-}
-
-
-.portfolio_section .heading {
-	text-align: center;
-}
-
-.portfolio_section h3 {
-	color: #454545;
-	font-family: 'Dosis', sans-serif;
-	font-weight: 600;
-	font-size: 56px;
-	margin-bottom: 40px;
-	text-align: center;
-	position: relative;
-	display: inline-block;
-	padding-bottom: 15px;
-}
-
-.portfolio_section h3:after {
-	content: "";
-	position: absolute;
-	background: #EAB34C;
-	width: 100px;
-	height: 3px;
-	bottom: 0px;
-	left: 20%;
-} */
-
-/* ---- .element-item ---- */
-/* .project_tools {
-	display: flex;
-	flex-wrap: nowrap;
-	flex-direction: row;
-	justify-content: center;
-	margin: 8px;
-}
-
-.project_tools i {
-	padding: 3px;
-}
-
-.project_title {
-	margin-top: 12px;
-	text-align: center;
-}
-
-.project_description {
-	padding: 12px
-}
-
-.js_tool {
-	color: rgb(182, 182, 30);
-}
-
-.single_project {
-	position: relative;
-	overflow: hidden;
-	background-color: rgb(250, 218, 159);
-}
-
-.single_project img {
-	max-width: 100%;
-	height: auto;
-}
-
-.single_project .overlay {
-	background: #0009;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: -100%;
-	left: 0%;
-	transition: all 0.4s ease;
-}
-
-.single_project .overlay ul {
-	margin-bottom: 0px;
-	position: absolute;
-	top: 30%;
-	left: 30%;
-}
-
-.single_project .overlay ul li {
-	list-style: none;
-	display: inline-block;
-	margin: 0px 3px;
-}
-
-.single_project .overlay ul li a {
-	color: #EAB34C;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 500;
-	font-size: 14px;
-	display: inline-block;
-	padding: 8px 0px;
-	text-decoration: none;
-	border: 2px solid #EAB34C;
-	width: 100px;
-	text-align: center;
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	transition: all 0.2s ease;
-}
-
-.single_project .overlay ul li a:hover {
-	color: #FFFFFF;
-	background: #EAB34C;
-	border: 2px solid #FFFFFF;
-}
-
-.single_project:hover .overlay {
-	cursor: pointer;
-	top: 0%;
-}
-
-.portfolio_section .single_project {
-	padding-left: 0px;
-	padding-right: 0px;
-	border-left: 10px solid #FFFFFF;
-	border-right: 10px solid #FFFFFF;
-	margin: 15px 0px;
-} */
 
 /* ---------------------------------------- */
 /*           Contact Me Section
